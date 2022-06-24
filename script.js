@@ -35,7 +35,7 @@ function snapCracklePrime(maxValeu) {
 
             auxiliarMaxPrime.push("Snap" + "Crackle" + "Prime")
         }
-        else if (i % i === 0 && i % 2 !== 0 && i % 5 == 0 && i % 3 !== 0) {
+        else if (i % i === 0 && i % 2 !== 0 && i % 5 == 0 && i % 3 !== 0 || i % 2 === 0 && i < 4) {
             auxiliarMaxPrime.push("Prime")
         }
         else if (i % 2 !== 0 && i % 5 === 0) {
